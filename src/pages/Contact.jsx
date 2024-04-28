@@ -1,6 +1,8 @@
 import { useState, useRef, Suspense } from 'react'
 import emailjs from '@emailjs/browser'
 import { Canvas } from "@react-three/fiber";
+// import { Fox }  from "../models/Fox";
+// import { Loader } from '../components/Loader';
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -16,8 +18,8 @@ const Contact = () => {
     setIsLoading(true);
 
     emailjs.send(
-      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      process.env.VITE_APP_EMAILJS_SERVICE_ID,
+      process.env.VITE_APP_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: "Jyothsna",
@@ -25,7 +27,7 @@ const Contact = () => {
         to_email: 'peddintijyothsna06@gmail.com',
         message: form.message
       },
-      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+      process.env.VITE_APP_EMAILJS_USER_ID,
     ).then(() => {
       setIsLoading(false);
       //TODO: Show success message
@@ -105,7 +107,17 @@ const Contact = () => {
         </form>
       </div>
       <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
-       
+        {/* <Canvas
+          camera={{
+            position: [0, 0, 5]
+          }}
+        >
+          <Suspense fallback={Loader}>
+            <Fox 
+            position={[0.5, 0.35, 0]}/>
+          </Suspense>
+
+        </Canvas> */}
 
       </div>
 
