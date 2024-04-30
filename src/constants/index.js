@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, capgemini, tcs, enstrapp, enstrappitsolutions, tesla } from "../assets/images";
 import {
     car,
     contact,
@@ -19,14 +19,34 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    intellij,
+    jira,
+    maven,
+    eclipse,
+    jquery
 } from "../assets/icons";
 
 export const skills = [
     {
+        imageUrl: angular,
+        name: "Angular",
+        type: "Frontend",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Frontend",
+    },
+    {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
+    },
+    {
+        imageUrl: eclipse,
+        name: "Eclipse",
+        type: "Version Control",
     },
     {
         imageUrl: git,
@@ -44,29 +64,34 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: intellij,
+        name: "IntelliJ",
+        type: "Version Control",
+    },
+    {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
     },
     {
-        imageUrl: angular,
-        name: "Angular",
+        imageUrl: jira,
+        name: "Jira",
+        type: "Version Control",
+    },
+    {
+        imageUrl: jquery,
+        name: "JQuery",
         type: "Frontend",
     },
     {
-        imageUrl: bootstrap,
-        name: "Bootstrap",
-        type: "Frontend",
+        imageUrl: maven,
+        name: "maven",
+        type: "Version Control",
     },
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
     },
     {
         imageUrl: sass,
@@ -87,52 +112,39 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Front End Developer",
+        company_name: "Capgemini",
+        icon: capgemini,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "July 2022 - April 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Angular.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Angular Developer",
+        company_name: "TCS",
+        icon: tcs,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Feb 2022 - July 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Angular and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Front End Developer",
+        company_name: "Enstrapp IT Solutions",
+        icon: enstrapp,
+        iconBg: "#accbe1",
+        date: "Nov 2019 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Angular8/11 and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",

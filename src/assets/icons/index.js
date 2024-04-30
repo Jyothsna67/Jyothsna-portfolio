@@ -28,6 +28,11 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import intellij from './intellij.svg'
+import jira from './jira.svg'
+import maven from './maven.svg'
+import eclipse from './eclipse.svg'
+import jquery from './jquery.svg'
 
 export {
     css,
@@ -59,5 +64,10 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    intellij,
+    jira,
+    maven,
+    eclipse,
+    jquery
 }
