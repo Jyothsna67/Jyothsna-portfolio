@@ -33,6 +33,10 @@ import jira from './jira.svg'
 import maven from './maven.svg'
 import eclipse from './eclipse.svg'
 import jquery from './jquery.svg'
+import seimense from './seimense.svg'
+import incident from './incident.png'
+import inspection from './inspection.png'
+import qserve from './qserve.png'
 
 export {
     css,
@@ -69,5 +73,9 @@ export {
     jira,
     maven,
     eclipse,
-    jquery
+    jquery,
+    seimense,
+    incident,
+    inspection,
+    qserve
 }

@@ -24,7 +24,11 @@ import {
     jira,
     maven,
     eclipse,
-    jquery
+    jquery,
+    seimense,
+    incident,
+    inspection,
+    qserve
 } from "../assets/icons";
 
 export const skills = [
@@ -172,45 +176,28 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: seimense,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Seimense Healthineers',
+        description: 'Involved in developing and implementing the end-to-end CRM solution as part of the Shareville program at Siemens Healthineers.Played a pivotal role in configuring and defining device parameters within Tacton, ensuring accurate pricing generation based on configurations.',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        iconUrl: incident,
+        theme: 'btn-back-yellow',
+        name: 'Incident Management',
+        description: 'Played a key role in the development and implementation of the Incident Management web application, designed to swiftly restore normal service operations and minimize disruptions to business operations. Implemented functionalities within the application to serve as a notification trigger for incidents, efficiently alerting the management group to take necessary actions promptly.',
     },
     {
-        iconUrl: car,
+        iconUrl: inspection,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'E-inspection',
+        description: 'Facilitated the development of the E-Inspection web application with a core focus on swiftly restoring normal service operations to minimize disruptions to business operations. Actively engaged in the project, aiming to minimize disruptions to business operations and maintain the utmost service quality and availability throughout the development lifecycle of the E-Inspection web application.',
     },
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        iconUrl: qserve,
+        theme: 'btn-back-red',
+        name: 'Q-serve',
+        description: 'Engaged in a pivotal role within Wipro GE Healthcare Company, specifically focusing on a wide array of medical equipment and diagnostic products, notably medical imaging systems..',
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
 ];
