@@ -28,7 +28,9 @@ import {
     seimense,
     incident,
     inspection,
-    qserve
+    qserve,
+    visualstudiocode,
+    ionic
 } from "../assets/icons";
 
 export const skills = [
@@ -65,6 +67,11 @@ export const skills = [
     {
         imageUrl: html,
         name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: ionic,
+        name: "Ionic",
         type: "Frontend",
     },
     {
@@ -111,7 +118,12 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: visualstudiocode,
+        name: "Visual Studio Code",
+        type: "Version Control",
+    },
 ];
 
 export const experiences = [
@@ -122,10 +134,9 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "July 2022 - April 2024",
         points: [
-            "Developing and maintaining web applications using Angular.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Engaged in requirement analysis, actively participating in grooming sessions to thoroughly comprehend customer needs and project requirements.",
+            "Led requirement analysis sessions, actively participating in grooming sessions to grasp and analyze customer needs effectively.",
+            "Took charge of bug-fixing tasks, and implementing new functionalities by actively participating in coding and development activities.",
         ],
     },
     {
@@ -148,8 +159,8 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "Nov 2019 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using Angular8/11 and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Played a key role in the development process, emphasizing the swift restoration of service operations to sustain optimal service quality and availability.",
+            "Actively engaged in the project, aimimg to minimize disruptions to business operations and maintain the utmost service quality and availability throughout the development lifecycle of the web application.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
@@ -179,7 +190,7 @@ export const projects = [
         iconUrl: seimense,
         theme: 'btn-back-red',
         name: 'Seimense Healthineers',
-        description: 'Involved in developing and implementing the end-to-end CRM solution as part of the Shareville program at Siemens Healthineers.Played a pivotal role in configuring and defining device parameters within Tacton, ensuring accurate pricing generation based on configurations.',
+        description: 'Involved in developing and implementing the end-to-end CRM solution as part of the Shareville program at Siemens Healthineers. Played a pivotal role in configuring and defining device parameters within Tacton, ensuring accurate pricing generation based on configurations.',
     },
     {
         iconUrl: incident,
@@ -197,7 +208,6 @@ export const projects = [
         iconUrl: qserve,
         theme: 'btn-back-red',
         name: 'Q-serve',
-        description: 'Engaged in a pivotal role within Wipro GE Healthcare Company, specifically focusing on a wide array of medical equipment and diagnostic products, notably medical imaging systems..',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        description: 'Engaged in a pivotal role within Wipro GE Healthcare Company, specifically focusing on a wide array of medical equipment and diagnostic products, notably medical imaging systems. Contributed significantly to the project by executing QA tests that guaranteed the XR-based equipment operated within specified limits, aligning with stringent safety guidelines. This approach upheld the safety protocols and ensured regulatory compliance with X-ray radiation emission levels.',
     },
 ];

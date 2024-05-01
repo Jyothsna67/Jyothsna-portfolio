@@ -37,6 +37,8 @@ import seimense from './seimense.svg'
 import incident from './incident.png'
 import inspection from './inspection.png'
 import qserve from './qserve.png'
+import visualstudiocode from './visualstudiocode.svg'
+import ionic from './ionic.svg'
 
 export {
     css,
@@ -77,5 +79,7 @@ export {
     seimense,
     incident,
     inspection,
-    qserve
+    qserve,
+    visualstudiocode,
+    ionic
 }
