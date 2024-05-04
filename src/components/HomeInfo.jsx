@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { arrow } from '../assets/icons'
+import { arrow } from '../assets/icons';
 
 const InfoBox = ({ text, link, btnText }) => (
     <div className='info-box'>
@@ -18,6 +18,8 @@ const renderContent = {
             Hi, I am <span className='font-semibold'>Jyothsna</span>👋
             <br/>
             A Front end developer
+            <br />
+            <p>Use  arrow keys (←or→) to navigate</p>
         </h1>
     ),
     2: (
