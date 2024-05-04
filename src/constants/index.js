@@ -33,6 +33,11 @@ import {
     ionic
 } from "../assets/icons";
 
+import { BiError } from "react-icons/bi";
+import { PiDotsNineLight } from "react-icons/pi";
+import { FcInspection } from "react-icons/fc";
+import { IoServer } from "react-icons/io5";
+
 export const skills = [
     {
         imageUrl: angular,
@@ -187,25 +192,25 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: seimense,
+        iconUrl: PiDotsNineLight,
         theme: 'btn-back-red',
         name: 'Seimense Healthineers',
         description: 'Involved in developing and implementing the end-to-end CRM solution as part of the Shareville program at Siemens Healthineers. Played a pivotal role in configuring and defining device parameters within Tacton, ensuring accurate pricing generation based on configurations.',
     },
     {
-        iconUrl: incident,
+        iconUrl: BiError,
         theme: 'btn-back-yellow',
         name: 'Incident Management',
         description: 'Played a key role in the development and implementation of the Incident Management web application, designed to swiftly restore normal service operations and minimize disruptions to business operations. Implemented functionalities within the application to serve as a notification trigger for incidents, efficiently alerting the management group to take necessary actions promptly.',
     },
     {
-        iconUrl: inspection,
+        iconUrl: FcInspection,
         theme: 'btn-back-blue',
         name: 'E-inspection',
         description: 'Facilitated the development of the E-Inspection web application with a core focus on swiftly restoring normal service operations to minimize disruptions to business operations. Actively engaged in the project, aiming to minimize disruptions to business operations and maintain the utmost service quality and availability throughout the development lifecycle of the E-Inspection web application.',
     },
     {
-        iconUrl: qserve,
+        iconUrl: IoServer,
         theme: 'btn-back-red',
         name: 'Q-serve',
         description: 'Engaged in a pivotal role within Wipro GE Healthcare Company, specifically focusing on a wide array of medical equipment and diagnostic products, notably medical imaging systems. Contributed significantly to the project by executing QA tests that guaranteed the XR-based equipment operated within specified limits, aligning with stringent safety guidelines. This approach upheld the safety protocols and ensured regulatory compliance with X-ray radiation emission levels.',
