@@ -6,7 +6,7 @@ import tesla from './tesla.png'
 import logo from './logo.svg'
 import capgemini from './capgemini.png'
 import tcs from './tcs.png'
-import enstrapp from './enstrapp.jpg'
+import enstrapp from './enstrapp.png'
 import enstrappitsolutions from './enstrappitsolutions.png'
 
 export {

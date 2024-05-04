@@ -161,7 +161,7 @@ export const experiences = [
         title: "Front End Developer",
         company_name: "Enstrapp IT Solutions",
         icon: enstrapp,
-        iconBg: "#accbe1",
+        iconBg: "#A5D6A7",
         date: "Nov 2019 - Feb 2022",
         points: [
             "Played a key role in the development process, emphasizing the swift restoration of service operations to sustain optimal service quality and availability.",
@@ -181,12 +181,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Jyothsna67',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/peddhintij',
     }
 ];
 
