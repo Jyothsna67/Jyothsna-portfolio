@@ -194,7 +194,7 @@ export const projects = [
     {
         iconUrl: PiDotsNineLight,
         theme: 'btn-back-red',
-        name: 'Seimense Healthineers',
+        name: 'Siemens Healthineers',
         description: 'Involved in developing and implementing the end-to-end CRM solution as part of the Shareville program at Siemens Healthineers. Played a pivotal role in configuring and defining device parameters within Tacton, ensuring accurate pricing generation based on configurations.',
     },
     {
